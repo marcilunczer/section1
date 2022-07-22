@@ -1,0 +1,49 @@
+main {
+  width: 500px;
+  height: 150px;
+  margin: auto;
+  background-color: #006633;
+  border-radius: 16px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.cancel {
+  width: 114px;
+  height: 40px;
+  background-color: #bfbfbf;
+  color: #f2f2f2;
+  border-radius: 8px;
+  margin-right: 22.98px;
+}
+.bin {
+  width: 88px;
+  height: 40px;
+  background-color: #ef3a43;
+  color: #f2f2f2;
+  border-radius: 8px;
+  margin-left: 0px;
+}
+
+p {
+  line-height: 30px;
+}
+b {
+  line-height: 15px;
+  display: block;
+}
+.text {
+  position: relative;
+  top: 25px;
+  margin-bottom: 13.1px;
+  color: #ffffff;
+}
+.buttons {
+  position: relative;
+  top: 25px;
+}
+.cancel:hover {
+  background-color: black;
+}
+.bin:hover {
+  background-color: darkred;
+}

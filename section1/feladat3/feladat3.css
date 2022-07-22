@@ -1,0 +1,44 @@
+main{
+  font-family: 'Roboto', sans-serif;
+}
+.first {
+  width: 120px;
+}
+.second {
+  width: 620px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.third {
+  width: 200px;
+  font-size: 20px;
+}
+.fourth,
+.fifth,
+.sixth,
+.seventh {
+  width: 98.5px;
+}
+
+table {
+  width: 1334px;
+  height: 120px;
+  margin: auto;
+}
+.main-img {
+  width: 120px;
+}
+.fourth button,
+.fifth button,
+.sixth button,
+.seventh button {
+  background-color: transparent;
+  border: none;
+}
+.fourth button svg rect:hover,
+.fifth button svg rect:hover,
+.sixth button svg circle:hover,
+.seventh button svg circle:hover {
+  fill: red;
+}

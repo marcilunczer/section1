@@ -1,0 +1,35 @@
+:root{
+  --first: #55AE3A;
+  --second: #FFC700;
+  --third: #DF7E24;
+  --fourth: #9400D3;
+  --fifth: #2D8CD8;
+  --sixth: #E10000;
+}
+main {
+  width: 460px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: #363636;
+  height: 60px;
+}
+.first circle:hover{
+  fill: var(--first);
+}
+.second circle:hover{
+  fill: var(--second);
+}
+.third circle:hover{
+  fill: var(--third);
+}
+.fourth circle:hover{
+  fill: var(--fourth);
+}
+.fifth circle:hover{
+  fill: var(--fifth);
+}
+.sixth circle:hover{
+  fill: var(--sixth);
+}
