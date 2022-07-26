@@ -1,33 +1,62 @@
-main{
-  font-family: 'Roboto', sans-serif;
+body {
+  background-color: #e5e5e5;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background-color: white;
+}
+div {
+  height: 120px;
 }
 .first {
   width: 120px;
+  height: 110px;
+  padding: 0;
+  margin: 0;
 }
 .second {
   width: 620px;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.second p {
+  margin-left: 15px;
 }
 .third {
   width: 200px;
   font-size: 20px;
+  padding: 0;
+  margin: 0;
 }
 .fourth,
 .fifth,
 .sixth,
 .seventh {
   width: 98.5px;
+  padding: 0;
+  margin: 0;
 }
 
 table {
   width: 1334px;
   height: 120px;
   margin: auto;
+  padding: 0;
+  margin: 0;
+  border: none;
+  padding: none;
+  border-collapse: collapse;
+  border-spacing: 0px;
 }
 .main-img {
   width: 120px;
+  margin: 0;
+  padding: 0;
 }
 .fourth button,
 .fifth button,
@@ -40,5 +69,9 @@ table {
 .fifth button svg rect:hover,
 .sixth button svg circle:hover,
 .seventh button svg circle:hover {
-  fill: red;
+  fill: #df7e24;
+}
+tr {
+  margin: 0;
+  padding: 0;
 }
