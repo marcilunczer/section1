@@ -7,29 +7,29 @@
     <link rel="stylesheet" href="feladat1.css" />
     <title>Feladat1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Work+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <div class="contanier">
-        <h1>
-          <img src="feladat1-kepek/Vector-3.png" alt="" />
-          NÉV
-        </h1>
+    <div class="container">
+      <div>
+        <div class="heading-row">
+          <span>
+            <img src="feladat1-kepek/Vector-3.png" alt="" />
+            <b>NÉV</b>
+          </span>
+        </div>
       </div>
+      <form action="">
+        <label for="name"><b>Teljes név</b></label>
+        <br />
+        <input type="text" id="name" value="Próba Péter" />
+        <br />
+        <label for="surname"><b> Becenév</b></label>
+        <br />
+        <input type="text" id="surname" value="Peti" />
+      </form>
     </div>
-    <form action="">
-      <label for="name"><b>Teljes név</b></label>
-      <br />
-      <input type="text" class="name" value="Próba Péter" />
-      <br />
-      <label for="surname"><b> Becenév</b></label>
-      <br />
-      <input type="text" class="surname" value="Peti" />
-    </form>
   </body>
 </html>

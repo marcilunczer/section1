@@ -3,8 +3,6 @@ body {
   width: 620px;
   height: 220px;
   font-family: "Roboto", sans-serif;
-
-  margin-top: -15px;
 }
 div {
   background-color: #006633;
@@ -12,32 +10,41 @@ div {
   align-items: center;
   margin-bottom: 11px;
 }
-.contanier {
+.heading-row {
   transform: skewX(-25deg);
   background-color: white;
   width: 140px;
   margin: auto;
 }
-h1 {
+span {
   text-align: center;
-  font-weight: 900;
-  font-size: 24px;
   width: 140px;
-  font-family: "Roboto", sans-serif;
   height: 33px;
-  font-weight: bold;
   transform: skewX(25deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+b {
+  font-size: 24px;
+  font-weight: 900;
+}
+span img {
+  width: 16px;
+  height: 16px;
+  margin-right: 11px;
 }
 form {
   width: 450px;
   margin: auto;
 }
 input {
-  width: 450px;
+  width: 423px;
   height: 45px;
   border-radius: 44px;
   border: solid 1px #006633;
   color: #55ae3a;
+  margin: auto;
   margin-bottom: 22px;
   font-size: 24px;
   padding-left: 23px;
@@ -48,6 +55,7 @@ label {
   line-height: 23px;
   position: relative;
   left: 23px;
+  font-weight: 700;
 }
 b {
   font-size: 20px;
