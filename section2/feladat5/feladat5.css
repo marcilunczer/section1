@@ -1,0 +1,39 @@
+:root {
+  --first: #55ae3a;
+  --second: #ffc700;
+  --third: #df7e24;
+  --fourth: #9400d3;
+  --fifth: #2d8cd8;
+  --sixth: #e10000;
+}
+main {
+  width: 460px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: #363636;
+  height: 60px;
+}
+a {
+  border-radius: 100%;
+  width: fit-content;
+}
+.first:hover {
+  background-color: var(--first);
+}
+.second:hover {
+  background-color: var(--second);
+}
+.third:hover {
+  background-color: var(--third);
+}
+.fourth:hover {
+  background-color: var(--fourth);
+}
+.fifth:hover {
+  background-color: var(--fifth);
+}
+.sixth:hover {
+  background-color: var(--sixth);
+}

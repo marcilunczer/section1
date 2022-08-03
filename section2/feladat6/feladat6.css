@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
+.post{
+    width: 700px;
+    height: 400px;
+    position: relative;
+    background-image: url("Postimage.png");
+}
+.header-row{
+    position: absolute;
+    bottom: 0px;
+    height: 38px;
+    width: 100%;
+    background-color: 
+    #006633;
+    display: flex;
+    justify-content: space-between;
+}
+.sport{
+    background-color: white;
+    width: fit-content;
+    height: 100%;
+    transform: skewX(-30deg);
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sport div{
+    transform: skewX(30deg);
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.data{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 40%;
+    color: white;
+    margin-right: 10px;
+}
+.length, .seen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

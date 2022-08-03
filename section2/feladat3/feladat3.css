@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+table{
+    width: 1720px;
+    border-collapse: collapse;
+    background-color: #006633;
+}
+
+th{
+   height: 56px;
+    text-align: left;
+}
+.statistics{
+    width: 76px;
+    padding-left: 13px;
+}
+.picture{
+    width: 172px;
+}
+.crown, .title{
+    width: 235px
+}
+.link{
+    width: 202px;
+}
+.time{
+    width: 164px;
+}
+.eye{
+    width: 224px;
+}
+.calendar{
+    width: 180px;
+}
+.sum{
+    padding-right: 15px;
+}
+

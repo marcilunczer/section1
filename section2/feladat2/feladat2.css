@@ -1,0 +1,139 @@
+.woman {
+  border-radius: 100%;
+}
+header {
+  width: 100%;
+  background-color: #006633;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu {
+  align-items: center;
+  justify-content: space-between;
+  display: none;
+}
+.menu-point {
+  display: flex;
+}
+.right-menu {
+  display: none;
+  flex-direction: row;
+}
+.left-menu {
+  display: flex;
+  flex-direction: row;
+}
+.right {
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.left {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-end {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 19px;
+  padding-right: 5px;
+}
+.right-end img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.logo {
+  height: 20px;
+  width: 119px;
+}
+.icons {
+  display: flex;
+  gap: 22px;
+  padding-left: 8px;
+}
+.icons img{
+  height: 21px;
+}
+
+@media only screen and (min-width: 992px) {
+  .right-end {
+    flex-direction: row;
+  }
+  .right {
+    flex-basis: 67%;
+    justify-content: flex-end;
+    gap: 21px;
+  }
+  .right-end {
+    justify-content: flex-end;
+  }
+  .left {
+    flex-basis: 33%;
+    justify-content: left;
+    gap: 13px;
+  }
+  .right-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 26px;
+    align-items: center;
+  }
+  .hidden {
+    display: none;
+  }
+  header {
+    height: 85px;
+  }
+  .logo {
+    height: 48px;
+    width: 296px;
+  }
+  .right-end img {
+    width: 64px;
+    height: 64px;
+  }
+  .right-menu img {
+    width: 47px;
+    height: 47px;
+  }
+  
+}
+@media only screen and (min-width: 1640px) {
+  .right {
+    flex-basis: 42%;
+    justify-content: flex-end;
+    gap: 21px;
+  }
+
+  .left {
+    flex-basis: 58%;
+    justify-content: left;
+    gap: 13px;
+  }
+  .menu {
+    gap: 38px;
+    display: flex;
+    margin-left: 22px;
+  }
+  .menu-point p {
+    margin-left: 10px;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .menu-point img {
+    height: 33px;
+    width: 33px;
+  }
+  .menu-point{
+    align-items: center;
+  }
+  
+}
